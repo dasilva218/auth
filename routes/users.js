@@ -36,7 +36,7 @@ router.put('/users/:id', function (req, res) {
 
      updateUser(parseInt(id), name, email, password)
     .then(user => res.json(user))
-    .catch((err) => console.log("Erreur : ", err));
+    
     
     
 })

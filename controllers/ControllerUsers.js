@@ -6,3 +6,7 @@ exports.signin = (req, res) => {
 exports.signup = (req, res) => {
     res.send("inscription");
 };
+
+exports.dashboard = (req, res) => {
+    res.send("dashboard");
+};
